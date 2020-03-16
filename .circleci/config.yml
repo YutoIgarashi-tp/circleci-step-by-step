@@ -1,0 +1,8 @@
+version:2
+  jobs:
+    build:
+      docker:
+        - image:circleci/openjdk:8jdk-browsers
+      steps:
+        - checkout
+        - run:echo "hello Circle CI!"
